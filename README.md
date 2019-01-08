@@ -1,4 +1,4 @@
-# Project 4: Name TBD
+# Project 4: Using Yelp
 
 ![Photo courtesy of @eaterscollective on www.unleash.com](./images/yelp.jpg)
 _Photo caption_
