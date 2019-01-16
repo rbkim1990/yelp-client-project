@@ -1,6 +1,6 @@
 # Project 4: Estimating Neighborhood Affluence with Yelp
 
-![Photo courtesy of @eaterscollective on www.unleash.com](./images/yelp.jpg =100x20)
+![Photo courtesy of @eaterscollective on www.unleash.com](./images/yelp.jpg)
 _Photo caption_
  
 This project was developed by:
