@@ -45,8 +45,12 @@ To add later
 
 }
 
-### Next Steps:
-There are a few avenues to take to improve results. First, having full access to the Yelp API is crucial in obtaining the most amount of data. The free version of the API limits the data that can be retrieved. Second, pulling data from other resources, such as the Internal Revenue Service or the US Census, will allow a more informed model. Lastly, building a functional tool by automating the whole process would make our work more accessible and instantly useable.
+## Next Steps:
+There are a few avenues to take to improve results. 
+- First, having full access to the Yelp API is crucial in obtaining the most amount of data. The free version of the API limits the data that can be retrieved. 
+- Second, pulling data from other resources, such as the Internal Revenue Service or the US Census, will allow a more informed model. 
+- Lastly, building a functional tool by automating the whole process would make our work more accessible and instantly useable.
 
 ### Known Issues
-Some of the issues that were faced during the process occurred when collecting data from Yelp. Because there is a hard limit on how much data can be collected, our team tackled the issue from a statistician's viewpoint. Firstly, we rejected the open data that was provided by Yelp. We decided that the data was not representative of the whole of the US. Secondly, we chose a specific state (Wisconsin) that, at the time of the writing of this project, was ranked in the middle of all states in terms of average AGI. We then chose 100 random zip codes in the state to retrieve Yelp data for, in hopes that we would capture the trend of the whole. Because of this limitation, we only had about 100 observations (before train-test-splitting) to build our model with. Lastly, we ran into some issues with the accuracy of the Yelp data, as well as questions of whether it is exhaustively representative of businesses in an area. Further study of this could be beneficial, as well.
+- Collecting data from Yelp. Because there is a hard limit on how much data can be collected, our team tackled the issue from a statistician's viewpoint. Firstly, we rejected the open data that was provided by Yelp. We decided that the data was not representative of the whole of the US. Secondly, we chose a specific state (Wisconsin) that, at the time of the writing of this project, was ranked in the middle of all states in terms of average AGI. We then chose 100 random zip codes in the state to retrieve Yelp data for, in hopes that we would capture the trend of the whole. Because of this limitation, we only had about 100 observations (before train-test-splitting) to build our model with. 
+- Accuracy of Yelp data. We were finding that some of the data on Yelp was inaccurate. We also questioned whether the Yelp data is exhaustively representative of businesses in an area. Further study of this could be beneficial, as well.
