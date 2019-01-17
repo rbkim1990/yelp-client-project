@@ -1,9 +1,7 @@
 # Project 4: Estimating Neighborhood Affluence with Yelp
 
-<p align="center">
- <img src="./images/yelp.jpg" width="600" height="400"/><br>
- Photo courtesy of @eaterscollective on www.unleash.com
-</p>
+<img src="./images/yelp.jpg" width="600" height="400"/><br>
+Photo courtesy of @eaterscollective on www.unleash.com
  
 This project was developed by:
 - [Shannon Bingham](https://www.linkedin.com/in/shannon-bingham/)
