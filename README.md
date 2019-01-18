@@ -6,7 +6,7 @@ This project was developed by
 - [Shannon Bingham](https://www.linkedin.com/in/shannon-bingham/) and
 - [Roy Kim](https://www.linkedin.com/in/roybkim/)
 
-as a part of the Data Science Immersive program with [General Assembly](https://generalassemb.ly) in January 2019.
+as a part of the Data Science Immersive program with [General Assembly](https://generalassemb.ly) for [New Light Technologies](https://newlighttechnologies.com) in January 2019.
 
 ## Problem Statement
 The goal of the project is to estimate the affluence of a neighborhood based on the number of `$` of businesses and services (according to Yelp) in a given neighborhood (`$`, `$$`, `$$$`, `$$$$`). The project takes a list of zip codes as input and estimates the wealth of the locality. While traditional methods typically estimate wealth of a locality based on demographic characteristics (e.g. income or unemployment rate), the novelty of this approach is in its use of big data related to commercial activity and cost of product and services as an indicator for affluency.
