@@ -1,4 +1,4 @@
-# Project 4: Estimating Neighborhood Affluence with Yelp
+# Client Project: Estimating Neighborhood Affluence with Yelp
 
 <img src="./images/yelp.jpg" width="600" height="400" alt = "Photo courtesy of @eaterscollective on www.unleash.com" />
  
@@ -8,9 +8,8 @@ This project was developed by
 
 as a part of the Data Science Immersive program with [General Assembly](https://generalassemb.ly) in January 2019.
 
-## Background Information
-This tool will estimate the affluence of a neighborhood based on the number of `$` of businesses and services (according to Yelp) in a given neighborhood (`$`, `$$`, `$$$`, `$$$$`). This tool will expect to get, as an input, a list of zip codes or names of neighborhoods and will estimate the wealth of the locality. While traditional methods typically estimate wealth of a locality based on demographic characteristics (e.g. income or unemployment rate), the novelty of this approach is in its use of big data related to commercial activity and cost of product and services as an indicator for affluency.
-
+## Problem Statement
+The goal of the project is to estimate the affluence of a neighborhood based on the number of `$` of businesses and services (according to Yelp) in a given neighborhood (`$`, `$$`, `$$$`, `$$$$`). The project takes a list of zip codes as input and estimates the wealth of the locality. While traditional methods typically estimate wealth of a locality based on demographic characteristics (e.g. income or unemployment rate), the novelty of this approach is in its use of big data related to commercial activity and cost of product and services as an indicator for affluency.
 
 ### Repository Structure
 **Folders**
