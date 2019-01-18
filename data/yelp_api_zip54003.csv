@@ -1,0 +1,10 @@
+zipcode,name,price,rating,review_count,categories
+54003,Common Man Brewing,$$,4.5,34,"[{'alias': 'breweries', 'title': 'Breweries'}, {'alias': 'pubs', 'title': 'Pubs'}]"
+54003,Ellsworth Cooperative Creamery,$,4.5,19,"[{'alias': 'csa', 'title': 'CSA'}, {'alias': 'cheese', 'title': 'Cheese Shops'}, {'alias': 'icecream', 'title': 'Ice Cream & Frozen Yogurt'}]"
+54003,Shady Grove,$$,4.0,28,"[{'alias': 'newamerican', 'title': 'American (New)'}, {'alias': 'seafood', 'title': 'Seafood'}, {'alias': 'steak', 'title': 'Steakhouses'}]"
+54003,Just Ka's,$$,4.5,8,"[{'alias': 'bars', 'title': 'Bars'}, {'alias': 'tradamerican', 'title': 'American (Traditional)'}]"
+54003,Vino In the Valley,$$,3.5,44,"[{'alias': 'tradamerican', 'title': 'American (Traditional)'}, {'alias': 'italian', 'title': 'Italian'}, {'alias': 'cafes', 'title': 'Cafes'}]"
+54003,El Paso Bar & Grill,$,4.5,3,"[{'alias': 'mexican', 'title': 'Mexican'}]"
+54003,Clyde's Corner,$,5.0,1,"[{'alias': 'bars', 'title': 'Bars'}]"
+54003,Red Barn Country Cafe,$,3.0,4,"[{'alias': 'cafes', 'title': 'Cafes'}]"
+54003,Bendillys Bar and Grill,$$,3.5,3,"[{'alias': 'tradamerican', 'title': 'American (Traditional)'}, {'alias': 'bars', 'title': 'Bars'}]"

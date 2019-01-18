@@ -1,0 +1,9 @@
+zipcode,name,price,rating,review_count,categories
+53006,Diner 67,$,4.0,33,"[{'alias': 'burgers', 'title': 'Burgers'}, {'alias': 'breakfast_brunch', 'title': 'Breakfast & Brunch'}]"
+53006,Rock the House Pub & Grill,$,4.5,21,"[{'alias': 'sportsbars', 'title': 'Sports Bars'}, {'alias': 'tradamerican', 'title': 'American (Traditional)'}]"
+53006,Guido's Spirits & Sandwich,$,5.0,7,"[{'alias': 'tradamerican', 'title': 'American (Traditional)'}, {'alias': 'bars', 'title': 'Bars'}, {'alias': 'sandwiches', 'title': 'Sandwiches'}]"
+53006,Bublitz's Restaurant & Alehouse,$$,3.0,49,"[{'alias': 'tradamerican', 'title': 'American (Traditional)'}, {'alias': 'salad', 'title': 'Salad'}, {'alias': 'pizza', 'title': 'Pizza'}]"
+53006,The Marsh Inn,$,4.5,3,"[{'alias': 'bars', 'title': 'Bars'}, {'alias': 'burgers', 'title': 'Burgers'}, {'alias': 'pizza', 'title': 'Pizza'}]"
+53006,M J's Food & Spirits,$$,4.0,1,"[{'alias': 'bars', 'title': 'Bars'}, {'alias': 'burgers', 'title': 'Burgers'}, {'alias': 'pizza', 'title': 'Pizza'}]"
+53006,Quitting Time Pub & Grill,$$,5.0,1,"[{'alias': 'pubs', 'title': 'Pubs'}, {'alias': 'tradamerican', 'title': 'American (Traditional)'}]"
+53006,McDonald's,$,1.5,8,"[{'alias': 'burgers', 'title': 'Burgers'}, {'alias': 'hotdogs', 'title': 'Fast Food'}, {'alias': 'coffee', 'title': 'Coffee & Tea'}]"
