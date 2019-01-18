@@ -34,18 +34,12 @@ Our group was tasked with using Yelp data to predict and estimate the economic a
 In order to maximize signal from the data, we did some feature engineering based on the dollar amounts and the types of businesses in a zip code. We also took a look at some unsupervised learning with principal component analysis and clustering to see if there were any relationships between the features that could be informative.
 
 ### Modeling:
-Using our feature engineered data, we ran a couple of models to try to predict the AGI. The best of our models ran at 
-
-{
-
-To add later
-
-}
+Using our feature engineered data, we ran a couple of models to try to predict the AGI. We modeled with basic linear regression, Random Forests, and XGBoost to create predictions. With the selected features, our linear regression model achieved a $R^2$ score of 0.4273 and RMSE of 12793, which was our best model. We also tried to run XGBoost and Random Forests on all the features available, but both were unable to best the basic linear regression scores. Given more time, more feature selection to maximize model scores can be taken.
 
 ## Next Steps:
 There are a few avenues to take to improve results. 
-- First, having full access to the Yelp API is crucial in obtaining the most amount of data. The free version of the API limits the data that can be retrieved. 
-- Second, pulling data from other resources, such as the Internal Revenue Service or the US Census, will allow a more informed model. 
+- First, having full access to the Yelp API is crucial in obtaining the most amount of data. The free version of the API limits the data that can be retrieved.
+- Second, pulling data from other resources, such as the Internal Revenue Service or the US Census, will allow a more informed model.
 - Lastly, building a functional tool by automating the whole process would make our work more accessible and instantly useable.
 
 ### Known Issues
