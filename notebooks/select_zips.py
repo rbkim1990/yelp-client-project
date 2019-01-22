@@ -4,18 +4,18 @@ and the number of zipcodes to retrieve
 and will return a list of randomized zipcodes that have between
 50 and 1000 registered businesses on Yelp
 
-To run this script, you will need your own Yelp API key
+Might take upwards of 20 minutes to run this method, depending on the
+number of zipcodes that are first input into the method
 '''
 
 from yelpapi import YelpAPI
 import pandas as pd
 import numpy as np
 
-# Enter Yelp API key here as a string
-key = 'jWpt3Tqvtyrq1y-0WjHcYZQ_JhUMT1Wqlhh8LQ_duNhO-w8urh6JfbyQ-7WIMK3Bkxd88APZE8v6urU22KO5GRlajmHtG-PM9SvtZNekJ5z_yKpHF8lvsR_kmQotXHYx'
-yelp = YelpAPI(key)
+def random_zips(list_of_zips, n_zips, key):
+    # Initializing the Yelp API using key provided
+    yelp = YelpAPI(key)
 
-def random_zips(list_of_zips, n_zips):
     # Casting the data type of the DataFrame into strings
     list_of_zips = [str(i) for i in list_of_zips]
 
@@ -26,13 +26,17 @@ def random_zips(list_of_zips, n_zips):
     zip_bus_list = []
 
     for zipcode in zip_list:
-        # Using the Yelp API search query to retrieve 1 business per zip code
-        search = yelp.search_query(location=zipcode, limit=1)
+        # Using exceptions in case Yelp APIs limitations are met
+        try:
+            # Using the Yelp API search query to retrieve 1 business per zip code
+            search = yelp.search_query(location=zipcode, limit=1)
 
-        # Appending to the list search['total'], which is the total number
-        # of businesses in a zip code (this metadata is available with each inidividual
-        # business search call)
-        zip_bus_list.append(search['total'])
+            # Appending to the list search['total'], which is the total number
+            # of businesses in a zip code (this metadata is available with each inidividual
+            # business search call)
+            zip_bus_list.append(search['total'])
+        except:
+            pass
 
     # Converting the list of businesses into a Series, and then into a DataFrame
     # that includes the zip code and number of businesses
