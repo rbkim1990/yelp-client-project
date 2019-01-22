@@ -17,11 +17,9 @@ The goal of the project is to estimate the affluence of a neighborhood based on 
 - images : Image files that either have been produced by the project for presentation or other images added to presentation.
 - notebooks : Notebooks used to gather, analyze, and model with the data.
 
-**Notebooks**  
-
-
 **Other Files**
 - Presentation.pdf: Presentation for Non-Technical Audience
+- Presentation.mp4: Video presentation of ProjectA
 
 ## Executive Summary
 ### Intro:
